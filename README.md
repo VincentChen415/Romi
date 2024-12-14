@@ -7,7 +7,7 @@
 
 Line following differential drive robot that utilizes a NUCLEO-L476RG microcontroller with addition to encoders, IMU, IR and bump sensors. The objective of the robot is to finish a black line course with a variety of patterns/obstacles the robot must maneuver. 
 # Romi Demo Video:
-[![Romi Robot Demo](https://img.youtube.com/vi/VIDEO_ID/0.jpg)]([https://www.youtube.com/watch?v=VIDEO_ID](https://www.youtube.com/watch?v=bHqvOkEkews&ab_channel=MHCalPoly))
+[![Romi Robot Demo](https://img.youtube.com/vi/VIDEO_ID/0.jpg)]([https://www.youtube.com/watch?v=VIDEO_ID](https://www.youtube.com/watch?v=bHqvOkEkews))
 
 # Romi Electrical Design:
 ## Nucleo L476 w/ Shoe of Brian

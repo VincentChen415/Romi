@@ -76,7 +76,7 @@ The bump sensors were intuitive to use and easy to set up. These are simple limi
 ## Task Diagram
 ![image](https://github.com/user-attachments/assets/bf9768e6-599a-4029-8ac1-7c16c180b453)
 
-This task diagram shows the period and priority for each task. The priority determines which task runs if they are both able to and period determines how long the task should take. This also shows variables that are passed between tasks. Romi primarily takes sensor data from Tasks 3 and 4 to supplement the controls that run in Task 1. 
+This task diagram shows the period and priority for each task. The priority determines which task runs if they are both able to and period determines how long the task should take. This also shows variables that are passed between tasks. Romi primarily takes sensor data from Tasks 3 and 4 to supplement the controls that run in Task 1. Line position is sent as a float from Task 3 to Task 1 and Clear/Bump_triggered are sent between Task 1 and 3 as booleans, but in this case '1' or '0' as uint8 values. 
 
 ## Controls 
 ![image](https://github.com/user-attachments/assets/09c5812e-9a88-4988-88a0-eca47e33898d)

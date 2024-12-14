@@ -56,6 +56,9 @@ These right and left bumper sensors contain snap-action switches with roller lev
 ![image](https://github.com/user-attachments/assets/a473889a-acd9-46bd-8a60-31ee7c8abd0a)
 
 The important outputs that the sensor can feed to the Romi are accelerations and angular rates. With this, we can take the acceleration outputs over time and integrate, resulting in velocity and position. This can also be calculated with the encoders; however, the encoder provides redundancy and any errors that the encoder will not be able to pick up. Examples of this include any wheel slip or if the motor is still able to operate but a mechanical issue may cause the robot to stop moving. The encoder will not be able to determine any angular change of the robot which the IMU provides. The IMU sensor can also pick up magnetic field strength and temperature to feed to the Romi, if needed. 
+## Pin Out Diagram
+![PinOutDiagram](https://github.com/user-attachments/assets/250fca07-a3c8-4001-8700-f9d115ed2135)
+
 # Mechanical Design:
 ## Romi Chassis
 ![image](https://github.com/user-attachments/assets/2d997da3-1c72-4ae5-9480-b32bd5490760)

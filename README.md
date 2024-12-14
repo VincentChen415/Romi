@@ -14,6 +14,8 @@ The main purpose of the motor driver and power distribution board is to step dow
 ![image](https://github.com/user-attachments/assets/c9c25a9c-ec1e-4cb6-8c78-0e909d168a9f)
 We chose to use this sensor as a line sensor to detect when Romi starts to deviate from the physical path line. This sensor module has 8 IR LED/phototransistor pairs. Each sensor provided a separate digital I/O-measurable output in correspondence with the amount of light that is reflected to the sensor. The line, being black, reports a lesser value of reflected light. This allows us to identify where the line in relative to Romi and allows for position adjustment of robot by weighting the turning reaction the further away the line is to the center. Although this sensor module comes with 8 IR LED/phototransistors we disabled the outside two sensors as we found that was extra data collection that was impeding with the overall performance of the line following capabilities of Romi. 
 ## Right and Left Bumper Switch Assembly for Romi/TI-RSLK MAX (Through-Hole Pins Soldered)
+![image](https://github.com/user-attachments/assets/c6a27877-20fd-4c1c-83bd-e7ef7ede56a0)
+
 These right and left bumper sensors contain snap-action switches with roller levers that are used to detect when Romi runs into an obstacle. For our design it was only required to program the front two snap-action switches as Romi would be approaching a flat side of an obstacle, meaning those would be the only switches to come into contact with the obstacle. These switches were forward set on the Romi in order to be the first point of contact, protecting the IR (RC) line sensor module.
 ## BNO055 IMU
 ![image](https://github.com/user-attachments/assets/a473889a-acd9-46bd-8a60-31ee7c8abd0a)

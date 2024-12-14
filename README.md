@@ -8,7 +8,7 @@ Romi is a line following differential drive robot that utilizes a NUCLEO-L476RG 
 
 # Mechanical Design:
 ## Romi Chassis
-![image](https://github.com/user-attachments/assets/2d997da3-1c72-4ae5-9480-b32bd5490760)
+![image](https://github.com/user-attachments/assets/a194a3d2-6d44-48f0-8724-883c90edcc12)
 
 The Romi chassis includes two wheels with independent drive, an encoder for each motor, and battery slot for 6 AA batteries. For our build be also opted for rechargeable lithium-ion batteries in order to limit the total cost throughout the prototyping and development process. The Romi chassis also has two rollers to prevent tipping of the robot. In addition to these aspects, the chassis also has numerous mounting points of various sizes to account for a wide range of compatible components.
 ## 3D-Printed Brackets

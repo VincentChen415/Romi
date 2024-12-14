@@ -6,6 +6,13 @@ Romi is a line following differential drive robot that utilizes a NUCLEO-L476RG 
 # Romi Demo Video:
 [![Romi Robot Demo](![romi](https://github.com/user-attachments/assets/d109a827-152c-4cbd-b456-6c3faac854a7))](https://www.youtube.com/watch?v=bHqvOkEkews)
 
+# Mechanical Design:
+## Romi Chassis
+![image](https://github.com/user-attachments/assets/2d997da3-1c72-4ae5-9480-b32bd5490760)
+
+The Romi chassis includes two wheels with independent drive, an encoder for each motor, and battery slot for 6 AA batteries. For our build be also opted for rechargeable lithium-ion batteries in order to limit the total cost throughout the prototyping and development process. The Romi chassis also has two rollers to prevent tipping of the robot. In addition to these aspects, the chassis also has numerous mounting points of various sizes to account for a wide range of compatible components.
+## 3D-Printed Brackets
+![image](https://github.com/user-attachments/assets/a581709e-aa6e-4bda-a8ea-6d497d18112e)
 
 # Romi Electrical Design:
 ## Nucleo L476 w/ Shoe of Brian
@@ -32,13 +39,7 @@ The important outputs that the sensor can feed to the Romi are accelerations and
 ## Pin Out Diagram
 ![PinOutDiagram](https://github.com/user-attachments/assets/250fca07-a3c8-4001-8700-f9d115ed2135)
 
-# Mechanical Design:
-## Romi Chassis
-![image](https://github.com/user-attachments/assets/2d997da3-1c72-4ae5-9480-b32bd5490760)
 
-The Romi chassis includes two wheels with independent drive, an encoder for each motor, and battery slot for 6 AA batteries. For our build be also opted for rechargeable lithium-ion batteries in order to limit the total cost throughout the prototyping and development process. The Romi chassis also has two rollers to prevent tipping of the robot. In addition to these aspects, the chassis also has numerous mounting points of various sizes to account for a wide range of compatible components.
-## 3D-Printed Brackets
-![image](https://github.com/user-attachments/assets/a581709e-aa6e-4bda-a8ea-6d497d18112e)
 
 # Romi Software Design:
 
